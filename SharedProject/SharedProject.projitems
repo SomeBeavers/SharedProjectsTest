@@ -12,6 +12,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)FU1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FU2_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Generate1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Remove1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename2_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename3_Shared.cs" />

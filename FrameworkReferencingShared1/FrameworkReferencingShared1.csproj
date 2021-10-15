@@ -43,6 +43,7 @@
     <Compile Include="FU_Framework1.cs" />
     <Compile Include="FU2_Framework1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Remove1_Framework1.cs" />
     <Compile Include="Rename1_Framework1.cs" />
     <Compile Include="Rename2_Framework1.cs" />
     <Compile Include="Rename3_Framework1.cs" />
