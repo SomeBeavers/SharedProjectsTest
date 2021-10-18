@@ -4,12 +4,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3353DC1B-03DF-4736-9D4D-90D443850CC4}</ProjectGuid>
+    <ProjectGuid>{C9DAED51-EEF5-43E5-B174-C52140EF01C2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>FrameworkReferencingShared2</RootNamespace>
-    <AssemblyName>FrameworkReferencingShared2</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <RootNamespace>FrameworkReferencingShared4</RootNamespace>
+    <AssemblyName>FrameworkReferencingShared4</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
   </PropertyGroup>
@@ -41,13 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FU_Framework2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Remove1_Framework2.cs" />
-    <Compile Include="Rename1_Framework2.cs" />
-    <Compile Include="Rename2_Framework2.cs" />
-    <Compile Include="Rename4_Framework2.cs" />
-    <Compile Include="Resolve1_Framework2.cs" />
+    <Compile Include="RemoveReference_Framework4.cs" />
   </ItemGroup>
   <Import Project="..\SharedProject\SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

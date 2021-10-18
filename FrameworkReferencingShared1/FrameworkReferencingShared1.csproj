@@ -48,6 +48,7 @@
     <Compile Include="Rename2_Framework1.cs" />
     <Compile Include="Rename3_Framework1.cs" />
     <Compile Include="Rename4_Framework1.cs" />
+    <Compile Include="Resolve1_Framework1.cs" />
   </ItemGroup>
   <Import Project="..\SharedProject\SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

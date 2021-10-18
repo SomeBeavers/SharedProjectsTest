@@ -9,13 +9,17 @@
     <Import_RootNamespace>SharedProject</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)AddReference_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FU1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FU2_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Generate1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Remove1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RemoveReference_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename2_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename3_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename4_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Resolve1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SuspendResume1_Shared.cs" />
   </ItemGroup>
 </Project>
