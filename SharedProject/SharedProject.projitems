@@ -10,9 +10,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)AddReference_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Cleanup1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Completion1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Context1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FU1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)FU2_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Generate1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Highlighting1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Remove1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)RemoveReference_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Rename1_Shared.cs" />
@@ -21,5 +25,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Rename4_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Resolve1_Shared.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)SuspendResume1_Shared.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Template1_Shared.cs" />
   </ItemGroup>
 </Project>
